@@ -79,3 +79,8 @@ html {
     display: flex;
     justify-content: center;
 }
+
+.tooltip-inner {
+    background-color: white;
+    color: black;
+}
