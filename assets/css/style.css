@@ -25,21 +25,15 @@ a:hover {
 }
 
 .navbar {
-    background-color: #343A40;
-    transition:0.75s ease;
-}
-
-
-/*.navbar {
     background-color: rgba(0,0,0,0.5);
     transition:0.75s ease;
-}*/
+}
 
 .navbar.scrolled {
-    background-color: rgba(0,0,0,0.5);
+    background-color: #343A40;
 }
 
-#about, #destacados{
+#about, #destacados, #contact {
     padding: 4em 10% 2em 10%;
 }
 
@@ -79,7 +73,7 @@ p.bar {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 .contact-button {
     display: flex;
